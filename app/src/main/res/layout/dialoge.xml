@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/black_1"
+    >
+
+    <TextView
+        android:id="@+id/currency_name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/currency_symbol_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symbol"
+        android:textSize="16sp"
+        android:layout_margin="2sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_price_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_market_cap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Market Cap"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_market_cap_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Market Cap Rank"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_high_24h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High (24h)"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_low_24h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Low (24h)"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_circulating_supply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circulating Supply"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_total_supply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Supply"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_max_supply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Supply"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_ath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATH"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/currency_atl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATL"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

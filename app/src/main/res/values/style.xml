@@ -1,0 +1,29 @@
+<resources>
+    <!-- Light Theme -->
+    <style name="AppTheme.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Light status bar color -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <!-- Light status bar icons -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Dark status bar color -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <!-- Dark status bar icons -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Default theme that switches automatically based on system settings -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Automatically adjusts based on system theme -->
+        <!-- Default status bar color for fallback -->
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="RoundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">100%</item>
+    </style>
+</resources>

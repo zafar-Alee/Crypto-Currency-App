@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_1">#545252</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light theme status bar color -->
+    <color name="lightStatusBarColor">#FFFFFF</color> <!-- White color or light color -->
+
+    <!-- Dark theme status bar color -->
+    <color name="darkStatusBarColor">#000000</color> <!-- Black color or dark color -->
+
+    <!-- Default theme status bar color -->
+    <color name="defaultStatusBarColor">#1565C0</color> <!-- Some default color -->
+
+
+
+</resources>
